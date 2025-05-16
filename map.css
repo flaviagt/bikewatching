@@ -24,3 +24,11 @@ body {
   height: 100%;
   pointer-events: none;
 }
+
+#map svg circle {
+  fill-opacity: 0.6; /* 60% opacity for better visibility */
+  stroke: white; /* White border */
+  stroke-width: 1; /* Border thickness */
+  pointer-events: auto; /* Enable tooltips */
+  cursor: pointer;
+}
